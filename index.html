@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translator</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
     <style>
         body{
             margin:0%;
@@ -16,8 +18,9 @@
             padding: 1rem;
             text-align: center;
             font-weight: lighter;
+            font-family: 'Open Sans', sans-serif;
         }
-        textarea{
+        #input-txt{
             background-color: #F9FAFB;
             width: 40%;
             height: 10%;
@@ -26,6 +29,8 @@
             margin-left: 25vw;
             margin-bottom: 1rem;
             border: 1px solid black;
+            font-family: 'Montserrat', sans-serif;
+            ;
         }
         #btn-translate{
             margin-left: 25vw;
@@ -36,15 +41,18 @@
         p{
             margin-top: 1rem;
             margin-left: 25vw;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bolder;
 
         }
         #output-txt{
             margin-top: 1rem;
             margin-left: 25vw;
-            width: 38vw;
-            height: 12vh;
+            width: 40%;
+            height: 14vh;
             border: 1px solid black;
-            padding: 2rem;
+            padding: 1rem;
+            font-family: 'Montserrat', sans-serif;
         }
         footer{
             padding-top: 1rem;
@@ -57,6 +65,10 @@
             font-weight:bolder;
             
         }
+        .section{
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
         .footer-heading{
             max-width: 40rem;
             margin: auto;
@@ -65,16 +77,18 @@
     </style>
 </head>
 <body>
-    <div class="header"><h3>Translator</p>
+    <div class="header"><h3>Minion Translator</p>
     </div>
     <textarea name="text" placeholder="Enter to get translated" id="input-txt" cols="30" rows="10"></textarea>
     <div><button id="btn-translate">Translate button</button>
     </div>
-    <p>Get Translated Text</p>
+    <p>Get Translated Text 👇</p>
     <div id="output-txt"></div><br>
     <!-- Footer Part Added -->
     <footer><h4 style="text-align: center;">About</h4>
-        <div class="footer-heading">Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language
+        <div class="section">
+            <div class="footer-heading">Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language
+        </div>
         </div>
     </footer>
 
