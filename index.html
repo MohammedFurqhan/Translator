@@ -5,21 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
     <style>
         body{
             margin:0%;
+            background-color: #F9FAFB;
         }
         .header{
-            background-color: darkkhaki;
+            background-color: #9CA3AF;
             padding: 1rem;
             text-align: center;
             font-weight: lighter;
         }
         textarea{
-            
+            background-color: #F9FAFB;
             width: 40%;
             height: 10%;
-            margin-top: 4rem;   
+            margin-top: 3rem;   
             padding: 1rem;
             margin-left: 25vw;
             margin-bottom: 1rem;
@@ -28,7 +30,7 @@
         #btn-translate{
             margin-left: 25vw;
             padding: 1rem;
-            background-color: darkkhaki;
+            background-color: #9CA3AF;
             border-radius: 1rem;
         }
         p{
@@ -40,9 +42,24 @@
             margin-top: 1rem;
             margin-left: 25vw;
             width: 38vw;
-            height: 10vh;
+            height: 12vh;
             border: 1px solid black;
             padding: 2rem;
+        }
+        footer{
+            padding-top: 1rem;
+            padding-bottom: 3rem;
+            margin-top: 2rem;
+            background-color: #9CA3AF;
+            font-family: 'Raleway', sans-serif;
+            color: black;
+            font-size: 1rem;
+            font-weight:bolder;
+            
+        }
+        .footer-heading{
+            max-width: 40rem;
+            margin: auto;
         }
 
     </style>
@@ -54,8 +71,12 @@
     <div><button id="btn-translate">Translate button</button>
     </div>
     <p>Get Translated Text</p>
-    <div id="output-txt"></div>
-    
+    <div id="output-txt"></div><br>
+    <!-- Footer Part Added -->
+    <footer><h4 style="text-align: center;">About</h4>
+        <div class="footer-heading">Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language
+        </div>
+    </footer>
 
     <script src="app.js" type="text/javascript"></script>
 </body>
